@@ -21,7 +21,7 @@ aws configure --profile terraform
 ## Initialize Terraform
 **Clone the Repository and Navigate to the Project Directory**
 ```bash
-git clone <GitHub_Repository_Url>
+git clone https://github.com/PavanKumarKJ347/Terraform_AWS_VPC_EKS.git
 terraform init
 ```
 
@@ -39,7 +39,7 @@ terraform apply --auto-approve
 
 ## Get Cluster KubeConfig File and Validate Access
 ```bash
-aws eks update-kubeconfig --name <EKS_Cluster_Name> --region ap-south-1
+aws eks update-kubeconfig --name Amazon_Production_EKS_Cluster --region ap-south-1
 kubectl get nodes
 ```
 

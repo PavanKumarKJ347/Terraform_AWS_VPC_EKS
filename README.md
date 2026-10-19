@@ -3,9 +3,9 @@
 ## This Repository Provisions an Amazon EKS [Elastic Kubernetes Service] Cluster on AWS Using Terraform.
 
 ## Prerequisites
-- AWS CLI
-- Terraform
-- Kubectl
+- **AWS CLI.**
+- **Terraform.**
+- **Kubectl.**
 
 ## Configure AWS Credentials Using Terraform Profile
 ```bash
@@ -16,7 +16,7 @@ aws configure --profile terraform
 **AWS Secret Access Key**<br>
 **Default Region**<br>
 **Default Output Format**<br>
-**Enter the Required Details When Prompted**<br>
+**Enter the Required Details When Prompted.**<br>
 
 ## Initialize Terraform
 **Clone the Repository and Navigate to the Project Directory**
@@ -40,7 +40,7 @@ terraform apply --auto-approve
 
 ## Get Cluster KubeConfig File and Validate Access
 ```bash
-aws eks update-kubeconfig --name <EKS_Cluster_Name> --region ap-south-1 --profile terraform
+aws eks update-kubeconfig --name <EKS_Cluster_Name> --region ap-south-1
 kubectl get nodes
 ```
 
@@ -49,4 +49,4 @@ kubectl get nodes
 terraform destroy --auto-approve
 ```
 
-**AWS EKS Cluster Should be Provisioned Successfully.**
+## AWS EKS Cluster Should be Provisioned in Amazon Web Services Successfully

@@ -22,7 +22,6 @@ aws configure --profile terraform
 **Clone the Repository and Navigate to the Project Directory**
 ```bash
 git clone <GitHub_Repository_Url>
-cd <GitHub_Repository_Directory>
 terraform init
 ```
 
@@ -49,4 +48,4 @@ kubectl get nodes
 terraform destroy --auto-approve
 ```
 
-## AWS EKS Cluster Should be Provisioned in Amazon Web Services Successfully
+## AWS EKS Cluster Should be Provisioned in Amazon Web Services Successfully.

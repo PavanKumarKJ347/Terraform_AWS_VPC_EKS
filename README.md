@@ -7,16 +7,16 @@
 - Terraform
 - Kubectl
 
-## Configure AWS Credentials Using terraform Profile
+## Configure AWS Credentials Using Terraform Profile
 ```bash
 aws configure --profile terraform
 ```
 
-Enter the Following Details When Prompted,
-AWS Access Key ID
-AWS Secret Access Key
-Default Region
-Default Output Format
+Enter the Following Details When Prompted,<br>
+AWS Access Key ID<br>
+AWS Secret Access Key<br>
+Default Region<br>
+Default Output Format<br>
 
 ## Initialize Terraform
 Clone the Repository and Navigate to the Project Directory
@@ -44,7 +44,7 @@ aws eks update-kubeconfig --name <EKS_Cluster_Name> --region ap-south-1 --profil
 kubectl get nodes
 ```
 
-##Destroy the Infrastructure
+## Destroy the Infrastructure
 ```bash
 terraform destroy --auto-approve
 ```

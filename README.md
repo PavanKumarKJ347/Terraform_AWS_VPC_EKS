@@ -12,14 +12,14 @@
 aws configure --profile terraform
 ```
 
-Enter the Following Details When Prompted,<br>
-AWS Access Key ID<br>
-AWS Secret Access Key<br>
-Default Region<br>
-Default Output Format<br>
+**AWS Access Key ID**<br>
+**AWS Secret Access Key**<br>
+**Default Region**<br>
+**Default Output Format**<br>
+**Enter the Required Details When Prompted**<br>
 
 ## Initialize Terraform
-Clone the Repository and Navigate to the Project Directory
+**Clone the Repository and Navigate to the Project Directory**
 ```bash
 git clone <GitHub_Repository_Url>
 cd <GitHub_Repository_Directory>

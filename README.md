@@ -1,6 +1,6 @@
 # AWS EKS Cluster Using Terraform
 
-## This Repository Provisions an Amazon EKS [Elastic Kubernetes Service] Cluster on AWS Using Terraform.
+## This Repository Provisions an Amazon Elastic Kubernetes Service Cluster on AWS Using Terraform.
 
 ## Prerequisites
 - **AWS CLI.**
